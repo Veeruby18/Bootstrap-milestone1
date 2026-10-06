@@ -6,12 +6,11 @@
 
 .main-header {
   min-height: 5px;
-  padding: 15px 0;
 }
 
 .news-logo {
-  font-size: 70px;
-  font-weight: 800;
+  font-size: 80px;
+  font-weight: 600;
   font-family: "Arial", sans-serifs;
 }
 
@@ -20,10 +19,9 @@
 }
 
 .date {
-  font-size: 25px;
+  font-size: 18px;
   color: #e9e4e4;
 }
-
 .profile {
   font-size: 12px;
   color: #e9e4e4;
@@ -41,6 +39,32 @@
   font-weight: 800;
 }
 
+.nav-one .nav-link {
+  position: relative;
+  padding: 14px 15px;
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.nav-one .nav-item:not(:nth-last-child(2)) .nav-link::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 22px;
+  background-color: #cac3c3;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.search-item {
+  background: #be1313;
+  max-width: 150px;
+  margin-left: 10px;
+}
+
 @media (min-width: 768px) {
   .profile {
     font-size: 15px;
@@ -53,10 +77,10 @@
 
 @media (min-width: 992px) {
   .profile {
-    font-size: 25px;
+    font-size: 18px;
   }
   .sub {
-    font-size: 25px;
+    font-size: 18px;
     padding: 5 100px;
   }
 }
