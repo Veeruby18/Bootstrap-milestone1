@@ -90,11 +90,13 @@ body {
 .footer-logo {
   font-size: 40px;
   color: #f72210;
+  line-height: 0.9;
 }
 
 .llc {
   font-size: 10px;
   color: #8b8787;
+  line-height: 1.2;
 }
 
 footer .icon {
@@ -102,6 +104,27 @@ footer .icon {
   font-size: 22px;
   font-weight: 600;
   padding: 8px 0;
+}
+
+.footer p,
+.footer a,
+.footer li {
+  line-height: 1.2;
+}
+
+.editions p,
+.footer-links p {
+  color: #8b8787;
+}
+
+.footer-logo:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.llc:hover {
+  color: #8b8787;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
