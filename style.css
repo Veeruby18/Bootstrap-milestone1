@@ -87,6 +87,23 @@ body {
   color: #050505;
 }
 
+.footer-logo {
+  font-size: 40px;
+  color: #f72210;
+}
+
+.llc {
+  font-size: 10px;
+  color: #8b8787;
+}
+
+footer .icon {
+  color: #8b8787;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
 @media (min-width: 768px) {
   .profile {
     font-size: 15px;
