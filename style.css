@@ -1,9 +1,9 @@
-/* .main-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
+body {
+  margin: 0;
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .dee-header {
   min-height: 5px;
   background: #fa0303;
@@ -12,7 +12,6 @@
 .news-logo {
   font-size: 80px;
   font-weight: 600;
-  font-family: "Arial", sans-serifs;
 }
 
 .news-sm {
